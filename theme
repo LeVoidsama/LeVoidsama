@@ -1,0 +1,123 @@
+/**
+* @name LeVoid
+* @author LeVoid#5003 
+* @version 1.0
+*/
+@import url("https://github.com/LeVoidsama/LeVoidsama/new/main?filename=README.md&path=%2F&value=-+👋+Hi%2C+I’m+%40LeVoidsama%0A-+👀+I’m+interested+in+...%0A-+🌱+I’m+currently+learning+...%0A-+💞%EF%B8%8F+I’m+looking+to+collaborate+on+...%0A-+📫+How+to+reach+me+...%0A%0A<%21---%0ALeVoidsama%2FLeVoidsama+is+a+✨+special+✨+repository+because+its+%60README.md%60+%28this+file%29+appears+on+your+GitHub+profile.%0AYou+can+click+the+Preview+link+to+take+a+look+at+your+changes.%0A--->%0A");
+
+:root {
+
+/* --- User variables --- */
+
+/* Jumping GIF */
+--jumping-gif: url('https://i.imgur.com/dCd49s0.gif');
+
+/* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("https://pic-bstarstatic.akamaized.net/ugc/c2c93c34bfb5c50d6a0792aa95cfe3940c482ba4.jpg"); without that => */
+--background-tertiary-alt: rgb(0, 0, 0);
+
+/* Border-radius for the whole theme */
+--border-radius: 20px;
+
+}
+
+.theme-dark {
+
+    /* Text */
+    --text-normal: #ffffff;
+    --header-primary: #f8e1e5;
+    --interactive-normal: #f1f1f1;
+    --channels-default: #ffffff;
+
+    --text-muted: #523f42;
+    --interactive-muted: #58494b;
+
+    --header-secondary: #fdfafa;
+    --interactive-hover: #ffffff;
+    --interactive-active: #faf5f6;
+
+    /* Background color */
+    --background-primary: #000000;
+    --background-secondary: #000000;
+    --background-secondary-alt: #0a0000;
+    --background-tertiary: #000000;
+    --background-floating: #ffffff;
+    --background-accent: #ff0037;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(0, 0, 0, 0.32);
+    --background-modifier-active: rgba(19, 12, 12, 0.32);
+    --background-modifier-selected: rgba(31, 21, 21, 0.32);
+    --toast-background: #000000 !important;
+    --toast-header: #000000 !important;
+    --toast-contents: #ebebeb !important;
+    --toast-border: #ffffff !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    .colorBrand-ROmMP1 { color: #ff1818;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #ff0037 !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #ff0037 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #ff0037; border-color: #ffffff;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
+.theme-light {
+
+    /* Text */
+    --text-normal: #a86373;
+    --header-primary: #a86373;
+    --interactive-normal: #a86373;
+    --channels-default: #a86373;
+
+    --text-muted: #a86373;
+    --interactive-muted: #cf92a0;
+
+    --header-secondary: #cf92a0;
+    --interactive-hover: #be7d8c;
+    --interactive-active: #b36f7f;
+
+    /* Background color */
+    --background-primary: #FFFFFF;
+    --background-secondary: #ffeeee;
+    --background-secondary-alt: #fdc7c7;
+    --background-tertiary: #ffbbbb;
+    --background-floating: #ffbbbb;
+    --background-accent: #c5536c;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(56, 31, 31, 0.062);
+    --background-modifier-active: rgba(19, 12, 12, 0.123);
+    --background-modifier-selected: rgba(31, 21, 21, 0.11);
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+
+    .colorBrand-ROmMP1 { color: #c5536c;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #c5536c !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #b64a61 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #c5536c; border-color: #c5536c;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
